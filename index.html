@@ -87,27 +87,27 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h4 id="Game-Design-ideas-done"><a href="#Game-Design-ideas-done" class="headerlink" title="Game Design ideas(done)"></a>Game Design ideas(done)</h4><h4 id="Gameplay-done"><a href="#Gameplay-done" class="headerlink" title="Gameplay(done)"></a>Gameplay(done)</h4><h4 id="Game-implement-process"><a href="#Game-implement-process" class="headerlink" title="Game implement process"></a>Game implement process</h4><h5 id="1-Implement-the-gameplay"><a href="#1-Implement-the-gameplay" class="headerlink" title="1-Implement the gameplay"></a>1-Implement the gameplay</h5><p>The key gameplay of this game is how to deal with the interactivity of two rooms, and also the gamer can drag and move each room, at the same time, the player can move from one room to another when two room close together, so the following code is the main parameters of the rooms.</p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/1.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/1.png" class>
 
 <h5 id="2-Implement-the-blocking-wall-rules"><a href="#2-Implement-the-blocking-wall-rules" class="headerlink" title="2-Implement the blocking wall rules"></a>2-Implement the blocking wall rules</h5><p>The blocking wall is an important element of this game, we have a trigger to open and close the blocking wall, it decides the movement of the Player and the Enemy. we used the Edge Collider 2D component to collide with Player, make the Player turn back. </p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/2.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/2.png" class>
 
 <h5 id="3-Player-Movement-AI"><a href="#3-Player-Movement-AI" class="headerlink" title="3-Player Movement AI"></a>3-Player Movement AI</h5><p>The Player movement status likes a finite state machine, in the following code, we give it a original movement direction and speed, the Player can move in the room and move to another room.</p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/3.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/3.png" class>
 
 
 <h4 id="Development-difficulties"><a href="#Development-difficulties" class="headerlink" title="Development difficulties"></a>Development difficulties</h4><h5 id="1-The-room’s-design"><a href="#1-The-room’s-design" class="headerlink" title="1-The room’s design"></a>1-The room’s design</h5><p>The room‘s difficulty is how to deal with the player’s movement, I gave several of colliders to the room(include 2D box collider and edge collider), to make sure the path of the player is right.</p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/4.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/4.png" class>
 
 <h5 id="2-The-stairs-design"><a href="#2-The-stairs-design" class="headerlink" title="2-The stairs design"></a>2-The stairs design</h5><p>The stairs contain three components, the sprite and the edge collider make up the stairs, and we need a script code to control it, make sure the Player run on the right path.</p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/5.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/5.png" class>
 
 <h5 id="3-The-Player-design"><a href="#3-The-Player-design" class="headerlink" title="3-The Player design"></a>3-The Player design</h5><p>The player has three colliders, two box colliders and one circle collider, the circle collider keep the Player stand on the ground, the center 2d box collider will collide with the coloring door, when the player passed the coloring door, the player will change the color of itself, and the last collider is acting on the wall, it decides the player’s movement direction.</p>
-<img src="/2020/11/15/deconstruction-development-docs/11/15/deconstruction-development-docs/6.png" class>
+<img src="/2020/11/15/deconstruction-development-docs/6.png" class>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://oswald33.github.io/2020/11/15/deconstruction-development-docs/" data-id="ckhikc3hf00012cvfhvf41a1p" class="article-share-link">Share</a>
+      <a data-url="http://oswald33.github.io/2020/11/15/deconstruction-development-docs/" data-id="ckhikkhd300003wvf4cu5ai47" class="article-share-link">Share</a>
       
       
     </footer>
@@ -156,7 +156,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://oswald33.github.io/2020/11/15/hello-world/" data-id="ckhikc3hb00002cvfaxb3h7oz" class="article-share-link">Share</a>
+      <a data-url="http://oswald33.github.io/2020/11/15/hello-world/" data-id="ckhikkhd900013wvf07n10qkm" class="article-share-link">Share</a>
       
       
     </footer>
